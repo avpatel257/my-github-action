@@ -6,6 +6,7 @@ RUN	apk add --no-cache \
   bash \
   ca-certificates \
   curl \
+  maven \
   jq
 
 # Copies your code file  repository to the filesystem 
