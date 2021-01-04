@@ -1,5 +1,5 @@
 # Base image 
-FROM maven:3-openjdk-8-slim
+FROM ubuntu:latest
 
 # installes required packages for our script
 RUN	apk add --no-cache \
