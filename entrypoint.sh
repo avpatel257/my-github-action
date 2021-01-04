@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e  
 
-mvn version
+mvn -version
 
 api_url="https://pokeapi.co/api/v2/pokemon/${INPUT_POKEMON_ID}"
 echo $api_url
