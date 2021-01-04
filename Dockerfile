@@ -1,5 +1,5 @@
 # Base image 
-FROM alpine:latest
+FROM maven:3-openjdk-8-slim
 
 # installes required packages for our script
 RUN	apk add --no-cache \
